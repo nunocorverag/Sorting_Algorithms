@@ -2,7 +2,7 @@
 #In each iteration, we will find the min value
 #Swap the min value, with the corresponding element
 
-def Selection_Sort(nums):
+def SelectionSort(nums):
     #We want the sorting decrease by -1
     for i in range(len(nums)):
         minValueIndex = i
@@ -15,6 +15,6 @@ def Selection_Sort(nums):
     return(nums)
 
 def main():
-    print(Selection_Sort([5,3,8,6,7,2]))
+    print(SelectionSort([5,3,8,6,7,2]))
 
 main()
